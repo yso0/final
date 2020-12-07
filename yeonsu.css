@@ -1,0 +1,151 @@
+body{
+    font-family: "맑은고딕", "고딕", "굴림";
+}
+
+header{
+    width: 80%;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color:#4E5CFF;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+
+header h1{
+    width: 40%;
+    float: left;
+    color: beige;
+    text-align-last: left;
+    
+}
+
+header nav{
+    width : auto;
+    text-align: right;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline;
+    float: left;
+    margin: 15px;
+}
+
+nav ul li a{
+    color: wheat;
+    text-decoration: none;
+}
+
+p{
+    font-size: 15px;
+    line-height: 20px;
+    color: aliceblue;
+}
+
+benner{
+    font-family: staravenue;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+#bottom{
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+}
+
+
+footer{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+ul{
+    list-style-type: decimal;
+    padding: 80px;
+}
+
+
+@font-face{
+    font-family:Cafe24Oneprettynight; 
+    src:url('Cafe24Oneprettynight.ttf');
+    font-weight: normal;
+}
+@font-face{
+    font-family:BareunDotumPro2; 
+    src:url('BareunDotumPro2.ttf');
+    font-weight: bold;
+} 
+@font-face{
+    font-family:staravenue; 
+    src:url('staravenue.ttf');
+    font-weight: bolder;
+} 
+@font-face{
+    font-family:BarricadaPro; 
+    src:url('BarricadaPro.ttf');
+    font-weight: bolder;
+} 
+
+header{
+    font-family: staravenue;
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+
+body{
+    font-family: staravenue;
+    font-weight:normal;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+
+nav ul li{
+    font-family: NanumSquare;
+      font-weight:bold;
+}
+
+p{
+  font-family: NanumSquare;
+      font-weight:bold;
+    text-align: center;
+    font-size: large;
+}
+
+.medium{
+    color:#10102F; 
+    font-size: medium;
+    text-align: left;
+    text-decoration: underline;
+    word-spacing: 0.6em;
+}
+
+.small{
+    font-size: small;
+    font-style: italic;
+    text-align: right;
+    text-decoration: overline;
+}
+
+.large{
+    font-family: Cafe24Oneprettynight;
+    font-size: large;
+     text-align: center;
+    text-decoration:line-through;
+    letter-spacing: 0.3em;
+}
+
+
+
