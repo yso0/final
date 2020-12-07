@@ -40,6 +40,7 @@ nav ul li a{
     text-decoration: none;
 }
 
+
 benner{
     font-family:staravenue;
     font-size: 50px;
@@ -118,10 +119,6 @@ footer{
     text-align: center;
 }
 
-ul{
-    list-style-type: circle;
-}
-
 #section1 {
     max-width: 815px;
     margin-top: 20px;
@@ -131,6 +128,7 @@ ul{
 
 ul{
     list-style-type: decimal;
+    align-content: center
     padding: 80px;
 }
 
